@@ -1,0 +1,19 @@
+Git related commands
+
+git status
+git reflog
+git init
+git add -A // for all files otherwise filename.
+Use git add . in your bash to add all the files to the given folder.
+git checkout *.cpp    <wildcard> for getting back last commited files
+git commit -m message "For getting message"
+
+To add the path before pushing
+git push 'remote_name' 'branch_name'
+git remote add origin https://github.com/Nizamoddin4/CPP_Programm.git
+
+git remote rm origin // Removes the all the references.. by default name is origin.
+
+git remote -v	
+
+git push --set-upstream origin master

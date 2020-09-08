@@ -12,6 +12,7 @@ class Person{
 	{
 		cout<<"This is from the base class";
 		cout<<"Changed for checking git version";
+		cout<<"This is changed to check the push command";
 		
 	}
 }
