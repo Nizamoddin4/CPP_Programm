@@ -13,7 +13,12 @@ class Person{
 		cout<<"This is from the base class";
 		cout<<"Changed for checking git version";
 		cout<<"This is changed to check the push command";
+<<<<<<< HEAD
 		cout<<"This is example of the hot fix";
+=======
+		cout<<"This is issue1 branch created for learning branching"
+		
+>>>>>>> issue1
 	}
 }
 class Student: private Person{

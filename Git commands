@@ -18,6 +18,12 @@ git remote -v
 
 git push --set-upstream origin master
 
+<<<<<<< HEAD
+=======
+git push  // this we can use from next time.
+
+
+>>>>>>> issue1
 
 git pull 'remote_name' 'branch_name'
 
@@ -31,7 +37,13 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 git checkout -b iss53 // equivalent to the commands $ git branch iss53 $ git checkout iss53
 
+<<<<<<< HEAD
 git merge hotfix
 
 git branch -d hotfix // for deleting the branch it is now pointed by the master. So no need.
+
+=======
+>>>>>>> issue1
+
+git branch   // Listouts the all branches present .
 
