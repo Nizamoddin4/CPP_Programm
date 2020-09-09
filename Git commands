@@ -17,3 +17,20 @@ git remote rm origin // Removes the all the references.. by default name is orig
 git remote -v	
 
 git push --set-upstream origin master
+
+git push  // this we can use from next time.
+
+
+
+git pull 'remote_name' 'branch_name'
+
+The git pull command is a combination of git fetch which fetches the recent commits in the local repository and git merge, which will merge the branch 
+from a remote to a local branch also 'remote_name' is the repository name and 'branch_name' is the name of the specific branch.
+
+
+Basic Branching and the Merging in the git.
+
+https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
+
+git checkout -b iss53 // equivalent to the commands $ git branch iss53 $ git checkout iss53
+
