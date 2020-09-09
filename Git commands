@@ -31,3 +31,7 @@ https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 
 git checkout -b iss53 // equivalent to the commands $ git branch iss53 $ git checkout iss53
 
+git merge hotfix
+
+git branch -d hotfix // for deleting the branch it is now pointed by the master. So no need.
+
