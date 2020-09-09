@@ -13,7 +13,7 @@ class Person{
 		cout<<"This is from the base class";
 		cout<<"Changed for checking git version";
 		cout<<"This is changed to check the push command";
-		
+		cout<<"This is example of the hot fix";
 	}
 }
 class Student: private Person{
